@@ -1,0 +1,27 @@
+[alias]
+	s = status -sb
+	co = checkout
+	c = commit
+	m = merge
+	b = branch
+	l = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	d = diff
+	a = add
+	f = fetch -p
+	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
+	dc = diff --cached
+	dcno = diff --cached --name-only
+	dno = diff --name-only
+	pl = pull
+	ps = push
+	psf = push -f
+	r = reset
+[user]
+	name = Zemke
+	email = flzemke@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[push]
+	default = simple
