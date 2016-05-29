@@ -16,6 +16,7 @@
 	ps = push
 	psf = push -f
 	r = reset
+	rb = rebase
 [user]
 	name = Zemke
 	email = flzemke@gmail.com
