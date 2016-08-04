@@ -12,7 +12,7 @@
 	dc = diff --cached
 	dcno = diff --cached --name-only
 	dno = diff --name-only
-	pl = pull
+	pl = pull --rebase
 	ps = push
 	psf = push -f
 	r = reset
