@@ -20,6 +20,8 @@
 	ap = add --patch
 	aa = add .
 	standup = !git log --all --author=$USER --format='%s' --since="$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi)"
+	cp = cherry-pick
+	dns = diff --name-status
 [user]
 	name = Zemke
 	email = flzemke@gmail.com
