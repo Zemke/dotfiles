@@ -18,6 +18,8 @@
 	r = reset
 	rb = rebase
 	ap = add --patch
+	aa = add .
+	standup = !git log --all --author=$USER --format='%s' --since="$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi)"
 [user]
 	name = Zemke
 	email = flzemke@gmail.com
@@ -27,3 +29,5 @@
 	required = true
 [push]
 	default = simple
+[core]
+	autocrlf = input
