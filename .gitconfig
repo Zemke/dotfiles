@@ -22,6 +22,7 @@
 	standup = !git log --all --author=$USER --format='%s' --since="$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi)"
 	cp = cherry-pick
 	dns = diff --name-status
+	splash = !git stash && git pl && git stash apply
 [user]
 	name = Zemke
 	email = flzemke@gmail.com
