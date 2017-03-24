@@ -23,6 +23,7 @@
 	cp = cherry-pick
 	dns = diff --name-status
 	splash = !git stash && git pl && git stash apply
+	beer = commit --amend --no-edit
 [user]
 	name = Zemke
 	email = flzemke@gmail.com
@@ -34,3 +35,4 @@
 	default = simple
 [core]
 	autocrlf = input
+	editor = vim
