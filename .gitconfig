@@ -24,6 +24,7 @@
 	dns = diff --name-status
 	splash = !git stash && git pl && git stash apply
 	beer = commit --amend --no-edit
+	fuckit = !git commit --amend --no-edit && git push --force
 [user]
 	name = Zemke
 	email = flzemke@gmail.com
