@@ -5,26 +5,26 @@
 	m = merge
 	b = branch
 	l = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	ll = !git l --all
 	d = diff
 	a = add
-	f = fetch -p
 	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
+	yesterday = !git log --since=yesterday --author=\"$(git config user.name)\" --oneline
 	dc = diff --cached
 	dcno = diff --cached --name-only
 	dno = diff --name-only
 	pl = pull --rebase
 	ps = push
 	psf = push -f
-	r = reset
+	psfl = push --force-with-lease
 	rb = rebase
 	ap = add --patch
 	aa = add .
 	standup = !git log --all --author=$USER --format='%s' --since="$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi)"
 	cp = cherry-pick
 	dns = diff --name-status
-	splash = !git stash && git pl && git stash apply
-	beer = commit --amend --no-edit
-	fuckit = !git commit --amend --no-edit && git push --force
+	plf = !git stash && git pl && git stash pop
+	bc = !git branch | sed -e '/^[^\\*]/d' -e 's/* //'
 [user]
 	name = Zemke
 	email = flzemke@gmail.com
@@ -37,3 +37,4 @@
 [core]
 	autocrlf = input
 	editor = vim
+	excludesfile = /Users/Zemke/.gitexcludes
