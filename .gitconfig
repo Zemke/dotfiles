@@ -8,6 +8,7 @@
 	ll = !git l --all
 	d = diff
 	a = add
+        r = reset
 	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
 	yesterday = !git log --since=yesterday --author=\"$(git config user.name)\" --oneline
 	dc = diff --cached
