@@ -28,7 +28,7 @@
 	bc = !git branch | sed -e '/^[^\\*]/d' -e 's/* //'
 [user]
 	name = Zemke
-	email = flzemke@gmail.com
+	email = florian@zemke.io
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
