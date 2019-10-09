@@ -26,6 +26,7 @@
 	dns = diff --name-status
 	plf = !git stash && git pl && git stash pop
 	bc = !git branch | sed -e '/^[^\\*]/d' -e 's/* //'
+	aamend = commit --aamend --no-edit
 [user]
 	name = Zemke
 	email = florian@zemke.io
