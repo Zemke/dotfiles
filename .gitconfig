@@ -28,6 +28,7 @@
 	bc = !git branch | sed -e '/^[^\\*]/d' -e 's/* //'
 	aamend = commit --amend --no-edit
   f = fetch
+  cop = checkout --patch
 [user]
 	name = Zemke
 	email = florian@zemke.io
