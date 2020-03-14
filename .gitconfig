@@ -27,7 +27,7 @@
 	plf = !git stash && git pl && git stash pop
 	bc = !git branch | sed -e '/^[^\\*]/d' -e 's/* //'
 	aamend = commit --amend --no-edit
-  f = fetch
+  f = fetch --all --prune
   cop = checkout --patch
   raaN = !git reset HEAD . && git add . -N
 [user]
