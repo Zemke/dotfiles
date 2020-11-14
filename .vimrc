@@ -6,5 +6,5 @@ set ai
 set number
 set ruler
 set hlsearch
-set noesckeys
+set timeout timeoutlen=1000 ttimeoutlen=100
 
