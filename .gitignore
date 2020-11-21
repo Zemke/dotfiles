@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+.DS_Store
+.java-version
+yarn-error.log
+*.iml
+*.swp
+
