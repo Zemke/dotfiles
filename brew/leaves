@@ -11,3 +11,4 @@ netcat
 nvm
 postgresql
 wget
+docker-compose
