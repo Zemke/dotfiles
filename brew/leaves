@@ -9,6 +9,7 @@ maven
 inetutils
 netcat
 nvm
+npm
 postgresql
 wget
 docker-compose
