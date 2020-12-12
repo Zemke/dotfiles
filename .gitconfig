@@ -42,4 +42,4 @@
 [core]
 	autocrlf = input
 	editor = vim
-	excludesfile = /Users/Zemke/.gitexcludes
+	excludesfile = ~/.gitexcludes
