@@ -6,5 +6,7 @@ set ai
 set number
 set ruler
 set hlsearch
-set timeout timeoutlen=1000 ttimeoutlen=100
+set noesckeys
+color peachpuff
+highlight Comment ctermfg=green
 
