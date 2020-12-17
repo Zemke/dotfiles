@@ -7,6 +7,7 @@ set number
 set ruler
 set hlsearch
 set noesckeys
+set timeout timeoutlen=1000 ttimeoutlen=100
 color peachpuff
 highlight Comment ctermfg=green
 
