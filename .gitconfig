@@ -8,24 +8,14 @@
 	ll = !git l --all
 	d = diff
 	a = add
-  r = reset
-	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
-	yesterday = !git log --since=yesterday --author=\"$(git config user.name)\" --oneline
 	dc = diff --cached
 	dcno = diff --cached --name-only
 	dno = diff --name-only
 	pl = pull --rebase
 	ps = push
-	psf = push -f
-	psfl = push --force-with-lease
 	rb = rebase
 	ap = add --patch
 	aa = add .
-	standup = !git log --all --author=$USER --format='%s' --since="$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi)"
-	cp = cherry-pick
-	dns = diff --name-status
-	plf = !git stash && git pl && git stash pop
-	bc = !git branch | sed -e '/^[^\\*]/d' -e 's/* //'
 	aamend = commit --amend --no-edit
   f = fetch --all --prune
   cop = checkout --patch
