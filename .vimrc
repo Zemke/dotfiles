@@ -7,7 +7,9 @@ set number
 set ruler
 set hlsearch
 set noesckeys
-set timeout timeoutlen=1000 ttimeoutlen=100
+set timeoutlen=1000 ttimeoutlen=0
+set tags=./tags;,tags;
 color peachpuff
-highlight Comment ctermfg=green
+highlight Comment ctermfg=gray
+highlight Search ctermbg=magenta
 
