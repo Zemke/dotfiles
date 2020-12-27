@@ -6,10 +6,14 @@ set ai
 set number
 set ruler
 set hlsearch
+
+set tags=./tags;,tags;
+
+set nofixendofline
 set noesckeys
 set timeoutlen=1000 ttimeoutlen=0
-set tags=./tags;,tags;
+
 color peachpuff
-highlight Comment ctermfg=gray
+highlight Comment ctermfg=green
 highlight Search ctermbg=magenta
 
