@@ -1,6 +1,7 @@
 export EDITOR='vim'
 export CLICOLOR=1
 alias ll='ls -la'
+alias diff-checkstyle='java -jar ~/diff-checkstyle.jar -c ~/checkstyle.xml --git-dir . --include-staged-codes --base-rev'
 
 # When share_history is enabled, it reads and writes to the history file.
 # When inc_append_history is enabled, it only writes to the history file.
