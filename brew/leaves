@@ -13,3 +13,5 @@ npm
 postgresql
 wget
 docker-compose
+ktlint
+
