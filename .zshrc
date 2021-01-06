@@ -6,6 +6,8 @@ alias ll='ls -la'
 # When inc_append_history is enabled, it only writes to the history file.
 setopt share_history
 
+alias history="history 0"
+
 PS1='%F{magenta}%n%f%F{green}@%f%F{yellow}%1~%f '
 
 export NVM_DIR="$HOME/.nvm"
