@@ -1,0 +1,7 @@
+ctags -R -a --languages=java ~/Code/src/java/java.base/java
+ctags -R -a --languages=java ~/Code/src/spring-framework/spring-beans/src/main/java
+ctags -R -a --languages=java ~/Code/src/spring-framework/spring-context/src/main/java
+ctags -R -a --languages=java ~/Code/src/spring-framework/spring-web/src/main/java
+ctags -R -a --languages=java ~/Code/src/spring-data-commons/src/main/java
+ctags -R -a --languages=java ~/Code/src/spring-data-jpa/src/main/java
+
