@@ -5,6 +5,8 @@ __pycache__/
 yarn-error.log
 *.iml
 *.swp
+*.swo
 .vimrc
 tags
+tags-gen
 
