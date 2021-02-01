@@ -16,6 +16,7 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 alias ll='ls -la'
 alias diff-checkstyle='java -jar ~/diff-checkstyle.jar -c ~/checkstyle.xml --git-dir . --include-staged-codes --base-rev'
+alias imp=$'bash -c \'git grep -h "^import " | grep -E -w "$0;?$" | sort | uniq | grep --color $0\''
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.rvm/bin:$HOME/.jenv/bin:$PATH"
 
