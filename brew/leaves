@@ -1,11 +1,11 @@
-dos2unix
+tmux
 git
-git-flow
+dos2unix
 gnu-sed
 gradle
+maven
 jenv
 kotlin
-maven
 inetutils
 netcat
 nvm
