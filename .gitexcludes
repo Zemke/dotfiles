@@ -9,4 +9,5 @@ yarn-error.log
 .vimrc
 tags
 tags-gen
+.ipynb_checkpoints/
 
