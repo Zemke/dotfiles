@@ -2,4 +2,4 @@ firefox
 rectangle
 scroll-reverser
 sensiblesidebuttons
-docker
+homebrew/cask/docker
