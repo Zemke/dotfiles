@@ -1,35 +1,14 @@
-[alias]
-	s = status -sb
-	co = checkout
-	c = commit
-	m = merge
-	b = branch
-	l = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-	ll = !git l --all
-	d = diff
-	a = add
-	dc = diff --cached
-	dcno = diff --cached --name-only
-	dno = diff --name-only
-	pl = pull --rebase
-	ps = push
-	rb = rebase
-	ap = add --patch
-	aa = add .
-	aamend = commit --amend --no-edit
-  f = fetch --all --prune
-  cop = checkout --patch
-  raaN = !git reset HEAD . && git add . -N
 [user]
 	name = Zemke
 	email = florian@zemke.io
-[filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
 [push]
 	default = simple
 [core]
 	autocrlf = input
 	editor = vim
 	excludesfile = ~/.gitexcludes
+[init]
+	defaultBranch = main
+[includeIf "gitdir:~/pain/mes"]
+  path = ~/pain/mes/.gitconfig
+
