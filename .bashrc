@@ -15,3 +15,6 @@ export HISTFILESIZE=100000
 shopt -s histappend
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
+# allows for vim keybindings
+alias node="env NODE_NO_READLINE=1 rlwrap node"
+

@@ -16,4 +16,5 @@ docker-compose
 ktlint
 openjdk@11
 htop
+rlwrap
 
