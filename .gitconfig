@@ -9,6 +9,4 @@
 	excludesfile = ~/.gitexcludes
 [init]
 	defaultBranch = main
-[includeIf "gitdir:~/pain/mes"]
-  path = ~/pain/mes/.gitconfig
 
