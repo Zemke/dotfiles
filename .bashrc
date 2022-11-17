@@ -3,8 +3,6 @@ set -o vi
 stty -ixon  # ctrl-s reverse reverse-i-search
 shopt -s globstar  # double-asterisk ** for recursion
 
-export TERM=xterm-256color
-
 # user@directory 
 export PS1="\[\033[01;36m\]\\u\[\033[01;31m\]@\[\033[01;32m\]\\W\[\033[00m\] "
 
