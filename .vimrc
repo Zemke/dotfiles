@@ -7,5 +7,8 @@ set number
 set ruler
 set hlsearch
 set path+=**
-set background=dark
+colorscheme peachpuff
+highlight Comment ctermfg=green
+highlight Search ctermbg=magenta ctermfg=0
+highlight Visual ctermbg=0
 
