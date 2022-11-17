@@ -7,4 +7,5 @@ set number
 set ruler
 set hlsearch
 set path+=**
+set background=dark
 
