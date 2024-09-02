@@ -10,11 +10,11 @@ inetutils
 netcat
 nvm
 npm
-postgresql
+postgresql@16
 wget
 docker-compose
 ktlint
-openjdk@11
+openjdk@21
 htop
 rlwrap
 
