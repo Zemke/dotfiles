@@ -1,4 +1,5 @@
 set editing-mode vi
+set keymap vi-command
 set -o vi
 stty -ixon  # ctrl-s reverse reverse-i-search
 shopt -s globstar  # double-asterisk ** for recursion
@@ -17,4 +18,5 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 # allows for vim keybindings
 alias node="env NODE_NO_READLINE=1 rlwrap node"
+export PYTHON_BASIC_REPL=1
 
